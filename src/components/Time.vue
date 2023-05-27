@@ -1,6 +1,6 @@
 <template>
     <section>
-    <div>Time</div>
+    <div id = "time">Time</div>
     <div>
         <!-- <p id="time">{{ timer }}</p> -->
         <p> HRS {{ hr }} : MIN {{ min }} : SEC {{ sec }} : MILS {{ mils }}</p>
@@ -77,7 +77,14 @@ section{
 
 section div{
     position: relative;
-    top: 40%;
+    top: 30%;
+
+}
+
+#time{
+    font-size: 72px;
+    line-height: 1;
+    letter-spacing: 0.01em;
 }
 
 </style>
